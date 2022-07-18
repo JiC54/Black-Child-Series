@@ -1,23 +1,23 @@
 class script(object):
     START_TXT = """<b>HELLO {},
-MY NAME IS <a href=https://t.me/{}>{}</a>, I PROVIDE SERIES. JUST ADD ME TO YOUR GROUP AND ENJOY!😍
+MY NAME IS <a href=https://t.me/{}>{}</a>, I PROVIDE SERIES. JUST ADD ME TO YOUR GROUP AND ENJOY!
 OR JUST PM THE SERIES NAME</b>
 
 <B><U>NOTE</U></B>
-Messages will disappear after 30 Minutes
+<code>Messages will get deleted after 48hrs</code>
 """
     START_grp_TXT = """
     Hi..,
 I provide series in group as well as in PM. Add me to your group as admin or just pm the Series name
     
 <B><U>NOTE</U></B>
-Messages will disappear after 30 Minutes for copyright infringement safety  
+<code>Messages will get deleted after 48hrs for copyright infringement safety</code>
     """
-    START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀
-I series, just pm series name or you can add me to your group.
+    START_gp_TXT = """Hello {}🙋🏻‍♀
+I provide series, just pm series name or add me to your group.
 
 <B><U>NOTE</U></B>
-My messages will disappear after 30 Minutes for copyright infringement safety
+<code>My messages will get deleted after 48hrs for copyright infringement safety</code>
 """
     HELP_TXT = """𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>♠️ MY NAME: {}</b>
@@ -79,7 +79,7 @@ My messages will disappear after 30 Minutes for copyright infringement safety
     BATCHMODE1_TXT = """<b>FILE STORE</b>
   With this feature a user generates special sharable links of files.
 
-<b><u>How to generate links? 🙄</u></b>
+<b><u>How to generate links?</u></b>
 1. For a single file use <code>/link command as reply to file</code>
 2. For creating batch files , use <code>/batch <starting message link> <ending message link></code>
 Example: <code>/batch https://t.me/JiC54_dax/10 https://t.me/JiC54_dax/20</code>
@@ -148,6 +148,6 @@ Username = <code>{}</code>
 (@JiC54SeriesBot)
 """
     MAIL_ID_TXT = """
-    <b>Currently you are using this mail for heroku account</b>\n
+    <b>Currently you are using this email for heroku account</b>\n
 ID - <code>{}</code>
 """
